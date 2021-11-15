@@ -273,7 +273,7 @@ body{
 }
 
 /* Clients section styles */
-.clientd{
+.clients{
     padding-top: 6.25rem;
 } 
 
@@ -485,4 +485,100 @@ body{
 .partner{
     display: inline-block;
     padding: 0 1.87rem;
+}
+
+@media only screen and (max-width: 991px){
+    /* Main section */
+    .main-section__action{
+        display: none;
+    }
+    .main-banner{
+        background: none;
+        min-height: auto;
+    }
+    .main-section__image{
+        display: none;
+    }
+    .main-section__info{
+        font-size: 35px;
+        line-height: 42px;
+    }
+    .main-section > div{
+        width: 100%;
+    }
+    .main-section__introduction{
+        font-size: 3rem;
+    }
+
+    /* Statistics sesction */
+    .statistic__item{
+        width: 100%;
+        margin-bottom: 20px;
+        margin-right: 0;
+        box-sizing: border-box;
+    }
+
+    /* About me section */
+    .about-me{
+        padding: 1.5rem 0;
+    }
+    .about-me > div{
+        width: 100%;
+    }
+    .about-me__image img{
+        display: none;
+    }
+
+    /* Services section */
+    .services{
+        padding: 1.5rem 0;
+    }
+    .service-card{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    /* Clients */
+    .clients{
+        padding: 1.5rem 0;
+    }
+    .client-item > div{
+        width: 100%;
+        float: none;
+    }
+
+    /* Portfolio */
+    .portfolio{
+        padding: 1.5rem 0;
+    }
+    .portfolio-item{
+        width: 100%;
+    }
+    .portfolio-item-1,
+    .portfolio-item2,
+    .portfolio-item3{
+        position: static;
+    }
+
+    /* Blog */
+    .blog{
+        padding: 1.5rem 0;
+    }
+    .blog-item{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    /* Partners */
+    .partners{
+        padding: 1.5rem 0;
+    }
+    .partner{
+        display: block;
+        padding: 0;
+        text-align: center;
+        margin-bottom: 10px;
+    }
 }
